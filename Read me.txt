@@ -1,0 +1,14 @@
+Dataset
+It has pictures of the Alphabets in sign languages.
+all the alphabets has there own folder.
+
+
+updates
+23/03/25
+trying the tesseract module in jupyter to read images and/or videos
+
+26/03/26
+failed to implement the code as intended
+
+switched the whole code to able to read videos
+
