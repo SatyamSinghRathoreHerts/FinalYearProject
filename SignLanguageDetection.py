@@ -88,7 +88,7 @@ def modelMaker():
 
 def imgPrediction():
     # Load the trained model
-    model = load_model("sign_language_model1.h5")
+    model = load_model("sign_language_model.h5")
 
     # Define label mappings (A-Z)
     labels = {i: chr(65 + i) for i in range(26)}
@@ -116,7 +116,7 @@ def videoPrediction():
     video_path = "B.mp4"
     cap = cv2.VideoCapture(video_path)
     
-    model = load_model("sign_language_model1.h5")
+    model = load_model("sign_language_model.h5")
     labels = {i: chr(65 + i) for i in range(26)}
     
     frame_count = 0
